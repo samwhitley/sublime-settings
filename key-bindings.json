@@ -1,0 +1,14 @@
+[
+  { "keys": ["i", "i"], "command": "exit_insert_mode",
+    "context":
+    [
+      { "key": "setting.command_mode", "operand": false },
+      { "key": "setting.is_widget", "operand": false }
+    ]
+  },
+  // Tab Next
+  { "keys": ["t", "N"], "command": "next_view_in_stack" },
+  // Tab Prev
+  { "keys": ["t", "P"], "command": "prev_view_in_stack" },
+  { "keys" : ["ctrl-e"], "command": "toggle_side_bar" }
+]
